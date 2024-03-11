@@ -46,7 +46,7 @@ class Kebun:
     def read_sayuran(self):
         current = self.head
         if current is None:
-            print("Tidak ada sayuran di kebun.\n")
+            print("Tidak ada sayuran di kebun\n")
             return
         print("Daftar Sayuran:")
         while current is not None:
